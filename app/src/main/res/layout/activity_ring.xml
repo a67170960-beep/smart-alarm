@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ringRoot"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:paddingTop="48dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Будильник"
+            android:textColor="@color/muted"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/ringTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="07:30"
+            android:textColor="@color/text"
+            android:textSize="48sp"
+            android:textStyle="bold" />
+        <TextView
+            android:id="@+id/ringHint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:text="Тапни по кружкам: 0 / 5"
+            android:textColor="@color/muted"
+            android:textSize="15sp" />
+    </LinearLayout>
+</FrameLayout>
